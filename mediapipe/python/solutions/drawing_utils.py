@@ -80,7 +80,7 @@ def draw_landmarks(
   Raises:
     ValueError: If one of the followings:
       a) If the input image is not three channel RGB.
-      b) If any connetions contain invalid landmark index.
+      b) If any connections contain invalid landmark index.
   """
   if not landmark_list:
     return
